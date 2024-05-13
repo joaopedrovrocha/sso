@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "node"
+    ],
+    "target": "es2016",
+    "lib": [
+      "es6"
+    ],
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types",
+    ]
+  },
+  "exclude": [
+    "./dist/**/*",
+    "node_modules",
+    "**/*.test.ts"
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "files": [
+    "./src/@types/express/index.d.ts"
+  ]
+}
